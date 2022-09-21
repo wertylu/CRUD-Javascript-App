@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD_JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<header>
+    <h1>Create your best car setup</h1>
+</header>
+
+<div class="fillings">
+    <form>
+        <h2 id="total-price">Total price:</h2>
+        <h2>Add new car</h2>
+        <div class="input">
+            <label for="producer-input">Name</label>
+            <input id="producer-input" />
+        </div>
+        <div class="input">
+            <label for="price-input">Price</label>
+            <input id="price-input" />
+        </div>
+        <div class="input">
+            <label for="horsepower-input">Horsepower</label>
+            <input id="horsepower-input" />
+        </div>
+        <button id="add-button" title="Add" class="button">Add</button>
+        <h2>Find car</h2>
+        <div class="input">
+            <label for="find-input">Name</label>
+            <input id="find-input" />
+        </div>
+        <div class="find-buttons">
+            <button id="find-button" title="Add" class="button">
+                Find
+            </button>
+            <button id="show-all-button" class="show-all">
+                Show all
+            </button>
+        </div>
+        <div class="sorting">
+            <button id="sort-button">Sort by power</button>
+        </div>
+    </form>
+
+    <ul id="items-container">
+    </ul>
+</div>
+
+<script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
