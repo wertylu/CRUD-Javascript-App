@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: darkred;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header h1 {
+    color: darkgray;
+}
+
+.fillings {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    border: 5px black;
+}
+
+
+
+li {
+    border: 3px solid darkred;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    height: 350px;
+}
+
+.item img {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.find-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sorting {
+    margin-top: 30px;
+}
